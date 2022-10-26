@@ -34,7 +34,7 @@ func TestConfigParsing(t *testing.T) {
 	}
 
 	if c.ClusterMonitoringConfiguration.AlertmanagerMainConfig.VolumeClaimTemplate == nil {
-		t.Fatal("config parsing failed: AlertmanagerMainConfig VolumeClaimTemplate was not parsed correctly")
+		t.Fatal("config parsing failed: AlertmanagerMainConfi VolumeClaimTemplate was not parsed correctly")
 	}
 }
 
